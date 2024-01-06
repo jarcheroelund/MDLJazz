@@ -6,7 +6,7 @@ Someone asked me for the code though so now that leaves us with MDLJazz on githu
 ## Compilation
 
 Make sure you have CMake and A C compiler installed (and git to clone the repo I guess).
-This should work on all platforms and the SDL2 source is included with the program.
+This should work on all platforms provided you have an even semi-modern GPU.
 
 open the terminal or powershell to whatever folder you do development stuff in
 
@@ -28,6 +28,6 @@ MDLJazz accepts two command line arguments one for the `.pak` path and one for t
 
 The Quake Shareware pak `PAK0.PAK` resides within the `assets` folder in the root of the repo.
 
-As an exaple run (from the `build` directory) `src/MDLJazz ../assets/PAK0.PAK progs/ogre.mdl` on linux and `src/MDLJazz.exe ../assets/PAK0.PAK progs/ogre.mdl` on windows. you should get this result:
+As an exaple run (from the `build` directory) `src/mdljazz ../assets/PAK0.PAK progs/ogre.mdl` on linux and `src/mdljazz.exe ../assets/PAK0.PAK progs/ogre.mdl` on windows. you should get this result:
 
 ![](/assets/output-sample.png)
